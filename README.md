@@ -15,3 +15,6 @@ jQuery：
 
 canvas：
 银河系星空背景；
+
+JS：
+实现Tab组件；
