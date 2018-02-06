@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles/layout.css" media="screen">
+</head>
+<body>
+    <h1>Snapshots</h1>
+    <ul>
+        <li>
+            <a href="images/dujuan.jpg" title="杜鹃" onclick="showPic(this);return false;">杜鹃</a>
+        </li>
+        <li>
+            <a href="images/meiren.jpg" onclick="showPic(this);return false;" title="虞美人">虞美人</a>
+        </li>
+        <li>
+            <a href="images/moli.jpg" onclick="showPic(this);return false;" title="茉莉">茉莉</a>
+        </li>
+        <li>
+            <a href="images/shuixian.jpg" onclick="showPic(this);return false;" title="水仙">水仙</a>
+        </li>
+        <li>
+            <a href="images/xinghua.jpg" onclick="showPic(this);return false;" title="杏花">杏花</a>
+        </li>
+    </ul>
+    <img id="placeholder" src="images/dujuan.jpg" alt="my image gallery">
+    <p id="description">choose an image</p>
+    <script type="text/javascript" src="scripts/showPic.js"></script>
+</body>
+</html>
