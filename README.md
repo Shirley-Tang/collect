@@ -18,3 +18,4 @@ canvas：
 
 JS：
 实现Tab组件；
+JS图片库；（from JavaScript DOM编程艺术）
